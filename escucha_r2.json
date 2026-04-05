@@ -1,16 +1,15 @@
 {
-  "type": "micro_wake_word",
+  "type": "micro",
   "wake_word": "escucha r2",
-  "version": 1,
-  "model": "escucha_r2.tflite",
   "author": "Gonzalo",
-  "website": "",
-  "license": "MIT",
-  "description": "Wake word: escucha R2",
-  "language": "es",
+  "model": "https://raw.githubusercontent.com/sucubus666/escucha-r2/main/escucha_r2.tflite",
+  "trained_languages": ["es"],
+  "version": 2,
   "micro": {
-    "minimum_esphome_version": "2024.2.0",
-    "tensor_arena_size": 20000,
-    "sliding_window_average_size": 10
+    "probability_cutoff": 0.8,
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7"
   }
 }
