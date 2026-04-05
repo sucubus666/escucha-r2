@@ -1,0 +1,16 @@
+{
+  "type": "micro_wake_word",
+  "wake_word": "escucha r2",
+  "version": 1,
+  "model": "escucha_r2.tflite",
+  "author": "Gonzalo",
+  "website": "",
+  "license": "MIT",
+  "description": "Wake word: escucha R2",
+  "language": "es",
+  "micro": {
+    "minimum_esphome_version": "2024.2.0",
+    "tensor_arena_size": 20000,
+    "sliding_window_average_size": 10
+  }
+}
