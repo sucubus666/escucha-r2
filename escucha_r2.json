@@ -1,7 +1,7 @@
 {
   "type": "micro",
   "wake_word": "escucha r2",
-  "author": "Gonzalo",
+  "author": "Gonzaloo",
   "model": "https://raw.githubusercontent.com/sucubus666/escucha-r2/main/escucha_r2.tflite",
   "trained_languages": ["es"],
   "version": 2,
